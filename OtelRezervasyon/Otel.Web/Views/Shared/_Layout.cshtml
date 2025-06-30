@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Valeria Antique Hotel Sultanahmet 1892</title>
+    <meta name="description"
+        content="1892'den beri Sultanahmet'te hizmet veren tarihi boutique otelimizde, Osmanlı döneminden günümüze uzanan eşsiz bir konaklama deneyimi yaşayın.">
+
+    <!-- SEO Meta Etiketleri -->
+    <meta name="keywords"
+        content="sultanahmet otel, istanbul boutique hotel, tarihi otel istanbul, valeria antique hotel, ayasofya yakını otel, kapalıçarşı yakını konaklama, ottoman period hotel, sultanahmet accommodation">
+    <meta name="author" content="Valeria Antique Hotel Sultanahmet 1892">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Turkish">
+
+    <!-- Open Graph Meta Etiketleri -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Valeria Antique Hotel Sultanahmet 1892 - Tarihi Boutique Otel">
+    <meta property="og:description"
+        content="1892'den beri Sultanahmet'te hizmet veren tarihi boutique otelimizde eşsiz konaklama deneyimi. Ayasofya'ya 8 dakika, Kapalıçarşı'ya 5 dakika yürüme mesafesi.">
+    <meta property="og:url" content="https://www.valeriaantiquehotel.com">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
+    
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <div class="contact-info">
+                        <span class="phone">
+                            <a href="tel:+905372682549">📞 +90 537 268 25 49</a>
+                        </span>
+                        <span class="email">
+                            <a href="mailto:valeria.antique@gmail.com">✉️ valeria.antique@gmail.com</a>
+                        </span>
+                    </div>
+                    <div class="social-header">
+                        <a href="https://instagram.com/valeria_antique_1892" target="_blank" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/905372682549" target="_blank" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>
+                        <a href="@Url.Action("Index", "Home")">Valeria Antique Hotel Sultanahmet 1892</a>
+                    </h1>
+                    <span class="logo-subtitle">Sultanahmet 1892</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="reservation-btn-nav">
+                        <a href="@Url.Action("Rezervasyon", "Home")" class="btn-reservation">REZERVASYON YAP</a>
+                    </div>
+                    <div class="nav-dropdown" id="nav-dropdown">
+                        <button class="dropdown-btn" id="dropdown-btn">
+                            <span class="menu-text">MENÜ</span>
+                            <span class="dropdown-icon">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li><a href="@Url.Action("Index", "Home")" class="nav-link">Ana Sayfa</a></li>
+                            <li><a href="@Url.Action("About", "Home")" class="nav-link">Hakkımızda</a></li>
+                            <li><a href="@Url.Action("Rooms", "Home")" class="nav-link">Odalar</a></li>
+                            <li><a href="@Url.Action("Services", "Home")" class="nav-link">Hizmetler</a></li>
+                            <li><a href="@Url.Action("Gallery", "Home")" class="nav-link">Galeri</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")" class="nav-link">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mobile Navigation -->
+                <div class="nav-mobile">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="@Url.Action("Index", "Home")" class="nav-link">Ana Sayfa</a></li>
+                        <li><a href="@Url.Action("About", "Home")" class="nav-link">Hakkımızda</a></li>
+                        <li><a href="@Url.Action("Rooms", "Home")" class="nav-link">Odalar</a></li>
+                        <li><a href="@Url.Action("Services", "Home")" class="nav-link">Hizmetler</a></li>
+                        <li><a href="@Url.Action("Gallery", "Home")" class="nav-link">Galeri</a></li>
+                        <li><a href="@Url.Action("Contact", "Home")" class="nav-link">İletişim</a></li>
+                        <li class="mobile-reservation">
+                            <a href="@Url.Action("Rezervasyon", "Home")" class="btn-mobile-reservation">Rezervasyon Yap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Valeria Antique Hotel</h3>
+                    <p>1892'den beri Sultanahmet'te misafirlerimize eşsiz bir konaklama deneyimi sunuyoruz.</p>
+                    <div class="contact-details">
+                        <p><strong>📍 ADRESİMİZ</strong><br>
+                            Mutrip Sokak No 15, Sultanahmet<br>
+                            Fatih, İstanbul 34000, Türkiye</p>
+
+                        <p><strong>📞 İLETİŞİM</strong><br>
+                            <a href="tel:+905372682549">+90 537 268 25 49</a><br>
+                            <a href="tel:+905382081458">Rezervasyon: +90 538 208 14 58</a>
+                        </p>
+
+                        <p>📱 <a href="https://wa.me/905372682549" target="_blank">WhatsApp</a></p>
+                        <p>✉️ <a href="mailto:valeria.antique@gmail.com">valeria.antique@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>İSTANBUL'DAKİ KONUMUMUZ</h4>
+                    <div class="location-info">
+                        <p><strong>📍 Sultanahmet Merkezi</strong></p>
+                        <ul class="location-distances">
+                            <li>🕌 Ayasofya → 8 dakika yürüme</li>
+                            <li>🕌 Sultanahmet Camii → 8 dakika yürüme</li>
+                            <li>🏛️ Kapalıçarşı → 5 dakika yürüme</li>
+                            <li>🏰 Topkapı Sarayı → 10 dakika yürüme</li>
+                            <li>🚊 Tramvay Durağı → 3 dakika yürüme</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>BAĞLANTILAR</h4>
+                    <ul>
+                        <li><a href="@Url.Action("About", "Home")">Hakkımızda</a></li>
+                        <li><a href="@Url.Action("Services", "Home")">Hizmetlerimiz</a></li>
+                        <li><a href="@Url.Action("Gallery", "Home")">Galeri</a></li>
+                        <li><a href="@Url.Action("Contact", "Home")">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>ODALAR</h4>
+                    <ul>
+                        <li><a href="@Url.Action("Rooms", "Home")">Economic Double Room</a></li>
+                        <li><a href="@Url.Action("Rooms", "Home")">Deluxe Double Room</a></li>
+                        <li><a href="@Url.Action("Rooms", "Home")">Standard Triple Room</a></li>
+                        <li><a href="@Url.Action("Rooms", "Home")">Deluxe Triple Room</a></li>
+                        <li><a href="@Url.Action("Rooms", "Home")">Deluxe Sultans Room</a></li>
+                        <li><a href="@Url.Action("Rezervasyon", "Home")">Rezervasyon</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>E-BÜLTEN</h4>
+                    <p>Haber, duyuru ve kampanyalarımızdan haberdar olmak için e-posta adresinizi ekleyin.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="E-posta adresiniz" required>
+                        <button type="submit">KAYIT OL</button>
+                    </form>
+                    <div class="social-footer">
+                        <a href="https://instagram.com/valeria_antique_1892" target="_blank" aria-label="Instagram"
+                            class="fa-brands fa-instagram"></a>
+                        <a href="https://wa.me/905372682549" target="_blank" aria-label="WhatsApp"
+                            class="fa-brands fa-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Valeria Antique Hotel Sultanahmet 1892. Her Hakkı Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

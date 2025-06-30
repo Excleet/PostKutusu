@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria Antique Hotel Sultanahmet 1892 - Tarihi Boutique Otel</title>
+    <meta name="description"
+        content="1892'den beri Sultanahmet'te hizmet veren tarihi boutique otelimizde, Osmanlı döneminden günümüze uzanan eşsiz bir konaklama deneyimi yaşayın.">
+
+    <!-- SEO Meta Etiketleri -->
+    <meta name="keywords"
+        content="sultanahmet otel, istanbul boutique hotel, tarihi otel istanbul, valeria antique hotel, ayasofya yakını otel, kapalıçarşı yakını konaklama, ottoman period hotel, sultanahmet accommodation">
+    <meta name="author" content="Valeria Antique Hotel Sultanahmet 1892">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Turkish">
+    <meta name="geo.region" content="TR-34">
+    <meta name="geo.placename" content="Istanbul, Sultanahmet">
+    <meta name="geo.position" content="41.0082;28.9784">
+    <meta name="ICBM" content="41.0082, 28.9784">
+
+    <!-- Open Graph Meta Etiketleri (Facebook, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Valeria Antique Hotel Sultanahmet 1892 - Tarihi Boutique Otel">
+    <meta property="og:description"
+        content="1892'den beri Sultanahmet'te hizmet veren tarihi boutique otelimizde eşsiz konaklama deneyimi. Ayasofya'ya 8 dakika, Kapalıçarşı'ya 5 dakika yürüme mesafesi.">
+    <meta property="og:url" content="https://www.valeriaantiquehotel.com">
+    <meta property="og:image" content="https://www.valeriaantiquehotel.com/fotoğraflar/genel/480769139.jpg">
+    <meta property="og:site_name" content="Valeria Antique Hotel">
+    <meta property="og:locale" content="tr_TR">
+
+    <!-- Twitter Card Meta Etiketleri -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Valeria Antique Hotel Sultanahmet 1892">
+    <meta name="twitter:description"
+        content="133 yıllık tarihi binada Osmanlı döneminden günümüze eşsiz konaklama deneyimi">
+    <meta name="twitter:image" content="https://www.valeriaantiquehotel.com/fotoğraflar/genel/480769139.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.valeriaantiquehotel.com">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" />
+
+    <!-- JSON-LD Structured Data (Google için) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Valeria Antique Hotel Sultanahmet 1892",
+      "description": "1892'den beri Sultanahmet'te hizmet veren tarihi boutique otel. Osmanlı döneminden günümüze eşsiz konaklama deneyimi.",
+      "url": "https://www.valeriaantiquehotel.com",
+      "telephone": "+905372682549",
+      "email": "valeria.antique@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mutrip Sokak No 15",
+        "addressLocality": "Sultanahmet",
+        "addressRegion": "Fatih",
+        "postalCode": "34000",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      },
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5",
+        "bestRating": "5"
+      },
+      "priceRange": "€40-€120",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification", 
+          "name": "24-hour front desk",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Airport shuttle",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Luggage storage",
+          "value": true
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Room Types",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Economic Double Room",
+              "description": "13 m² alanda, 2 kişilik Queen Size yatak"
+            },
+            "price": "40",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Deluxe Double Room",
+              "description": "17 m² alanda, 2 kişilik King Size yatak"
+            },
+            "price": "55",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product", 
+              "name": "Deluxe Sultans Triple Room",
+              "description": "24 m² alanda, deniz manzaralı balkon"
+            },
+            "price": "120",
+            "priceCurrency": "EUR"
+          }
+        ]
+      },
+      "sameAs": [
+        "https://instagram.com/valeria_antique_1892"
+      ]
+    }
+    </script>
+
+    <!-- Local Business Schema (Google My Business için) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.valeriaantiquehotel.com",
+      "name": "Valeria Antique Hotel Sultanahmet 1892",
+      "image": "https://www.valeriaantiquehotel.com/fotoğraflar/genel/480769139.jpg",
+      "telephone": "+905372682549",
+      "email": "valeria.antique@gmail.com",
+      "url": "https://www.valeriaantiquehotel.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Mutrip Sokak No 15",
+        "addressLocality": "Sultanahmet",
+        "addressRegion": "İstanbul",
+        "postalCode": "34000",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday", 
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "priceRange": "€40-€120",
+      "servesCuisine": "Turkish",
+      "areaServed": "Istanbul",
+      "hasMap": "https://goo.gl/maps/sultanahmet"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-info">
+                    <div class="contact-info">
+                        <span class="phone">
+                            <a href="tel:+905372682549">📞 +90 537 268 25 49</a>
+                        </span>
+                        <span class="email">
+                            <a href="mailto:valeria.antique@gmail.com">✉️ valeria.antique@gmail.com</a>
+                        </span>
+                    </div>
+                    <div class="social-header">
+                        <a href="https://instagram.com/valeria_antique_1892" target="_blank" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/905372682549" target="_blank" aria-label="WhatsApp"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Valeria Antique Hotel Sultanahmet 1892 - Tarihi Boutique Otel İstanbul</h1>
+                    <span class="logo-subtitle">Sultanahmet 1892</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <div class="reservation-btn-nav">
+                        <a href="#detailed-reservation" class="btn-reservation">REZERVASYON YAP</a>
+                    </div>
+                    <div class="nav-dropdown" id="nav-dropdown">
+                        <button class="dropdown-btn" id="dropdown-btn">
+                            <span class="menu-text">MENÜ</span>
+                            <span class="dropdown-icon">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="dropdown-menu">
+                            <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
+                            <li><a href="#about" class="nav-link">Hakkımızda</a></li>
+                            <li><a href="#rooms" class="nav-link">Odalar</a></li>
+                            <li><a href="#services" class="nav-link">Hizmetler</a></li>
+                            <li><a href="#gallery" class="nav-link">Galeri</a></li>
+                            <li><a href="#news" class="nav-link">Haberler</a></li>
+                            <li><a href="#contact" class="nav-link">İletişim</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mobile Navigation -->
+                <div class="nav-mobile">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
+                        <li><a href="#about" class="nav-link">Hakkımızda</a></li>
+                        <li><a href="#rooms" class="nav-link">Odalar</a></li>
+                        <li><a href="#services" class="nav-link">Hizmetler</a></li>
+                        <li><a href="#gallery" class="nav-link">Galeri</a></li>
+                        <li><a href="#news" class="nav-link">Haberler</a></li>
+                        <li><a href="#contact" class="nav-link">İletişim</a></li>
+                        <li class="mobile-reservation">
+                            <a href="#detailed-reservation" class="btn-mobile-reservation">Rezervasyon Yap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Ana Slider -->
+    <section id="home" class="main-slider">
+        <div class="slider-container">
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: url('fotoğraflar/odalar/480769258.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2 class="slide-title">Valeria Antique Hotel'e Hoş Geldiniz</h2>
+                        <h3 class="slide-subtitle">Sultanahmet'in Kalbinde, 1892'den Bu Yana</h3>
+                        <p class="slide-description">133 yıllık tarihi binada, Osmanlı döneminden günümüze uzanan eşsiz
+                            bir konaklama deneyimi</p>
+                        <a href="#detailed-reservation" class="btn-slide">REZERVASYON YAP</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('fotoğraflar/galeri/480769192.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2 class="slide-title">Tarihi Lüks ve Modern Konfor</h2>
+                        <h3 class="slide-subtitle">Antika Mobilyalar ile Döşenmiş Odalar</h3>
+                        <p class="slide-description">Osmanlı dönemi sanatının modern konforla buluştuğu eşsiz konaklama
+                            deneyimi</p>
+                        <a href="#rooms" class="btn-slide">ODALARIMIZI İNCELEYİN</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('fotoğraflar/odalar/480769273.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2 class="slide-title">Sultanahmet'te Benzersiz Konum</h2>
+                        <h3 class="slide-subtitle">Ayasofya'ya 8 Dakika Yürüme Mesafesi</h3>
+                        <p class="slide-description">Grand Bazaar, Sultanahmet Camii ve tüm tarihi eserlere yakın
+                            konumumuzla İstanbul'u keşfedin</p>
+                        <a href="#about" class="btn-slide">KONUMUMUZU GÖRÜN</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide" style="background-image: url('fotoğraflar/galeri/480769147.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2 class="slide-title">Geleneksel Türk Misafirperverliği</h2>
+                        <h3 class="slide-subtitle">24 Saat Kesintisiz Hizmet</h3>
+                        <p class="slide-description">İsteğe bağlı deniz manzarası eşliğinde kahvaltı 24/7 resepsiyon ve
+                            transfer hizmetlerimizle tam
+                            konfor</p>
+                        <a href="#services" class="btn-slide">HİZMETLERİMİZ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <button class="slider-btn prev-slide" aria-label="Önceki Slide">‹</button>
+            <button class="slider-btn next-slide" aria-label="Sonraki Slide">›</button>
+        </div>
+
+        <!-- Slider Indicators -->
+        <div class="slider-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+            <button class="indicator" data-slide="3"></button>
+        </div>
+
+        <!-- Slider Progress Bar -->
+        <div class="slider-progress">
+            <div class="progress-bar"></div>
+        </div>
+    </section>
+
+    <!-- Hızlı Rezervasyon -->
+    <section id="quick-reservation" class="quick-reservation">
+        <div class="container">
+            <div class="reservation-box">
+                <h3>Hızlı Rezervasyon</h3>
+                <form class="quick-form">
+                    <div class="form-row-quick">
+                        <div class="form-group-quick">
+                            <label>Giriş Tarihi</label>
+                            <input type="date" id="quick-checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group-quick">
+                            <label>Çıkış Tarihi</label>
+                            <input type="date" id="quick-checkout" name="checkout" required>
+                        </div>
+                        <div class="form-group-quick">
+                            <label>Misafir Sayısı</label>
+                            <select name="guests" required>
+                                <option value="1">1 Kişi</option>
+                                <option value="2" selected>2 Kişi</option>
+                                <option value="3">3 Kişi</option>
+                                <option value="4">4 Kişi</option>
+                            </select>
+                        </div>
+                        <div class="form-group-quick">
+                            <button type="submit" class="btn-search">REZERVASYON</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Bölümü -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>HAKKIMIZDA</h2>
+                    <p>Osmanlı döneminden günümüze kadar hayatta kalan bu tarihi bina, 133 yıldır değerli
+                        müşterilerimizi ağırlamaktadır. <strong>Sultanahmet'te otel</strong> arayan misafirlerimiz için
+                        eşsiz bir seçenek olan binamızın içindeki orijinal el çizimi motifleri ve Çırağan
+                        Sarayı'nın motiflerini çizen kişi aynı kişidir.</p>
+
+                    <p>Osmanlı döneminde Padişah'ın kişisel doktorlarından biri olan bu kişiye ait olan bu bina,
+                        özellikleriyle değerli müşterilerimizi ağırlamaya can atmaktadır. <strong>Sultanahmet'in
+                            kalbinde</strong>,
+                        tarihi yarımadanın tam merkezinde yer alan <strong>boutique otelimiz</strong>, İstanbul'un en
+                        önemli tarihi eserlerine
+                        yürüme mesafesindedir.</p>
+
+                    <p><strong>Sultanahmet otel</strong> olarak 9 odamızla boutique bir hizmet anlayışı sunan otelimiz,
+                        <strong>Kapalıçarşı'ya 5 dakika, Ayasofya ve
+                            Sultanahmet Camii'ne 8 dakika</strong> yürüme mesafesindedir. <strong>Tramvay durağımız ise
+                            sadece 3 dakika</strong>
+                        uzaklıkta olup, İstanbul'u tam anlamıyla deneyimlemek için hiç yürüme zahmetine katlanmanıza
+                        gerek yoktur.
+                    </p>
+
+                    <a href="#rooms" class="btn-about">Odalarımızı İnceleyin</a>
+                </div>
+                <div class="about-image">
+                    <img src="fotoğraflar/odalar/480769212.jpg"
+                        alt="Valeria Antique Hotel lobi - antika mobilyalarla döşenmiş tarihi iç mekan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Odalar Bölümü -->
+    <section id="rooms" class="rooms-section">
+        <div class="container">
+            <h2 class="section-title">ODALARIMIZ</h2>
+            <div class="rooms-slider">
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="fotoğraflar/hizmetler/480769263.jpg"
+                            alt="Valeria Antique Hotel Economic Double Room - 13m² konforlu oda">
+                        <div class="room-price">
+                            <span class="price-label">GECELİK</span>
+                            <span class="price">€40</span>
+                        </div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Economic Double Room</h3>
+                        <p>13 m² alanda, 2 kişilik Queen Size yatak. Su ısıtıcısı, Smart TV, terlik, havlu, klima,
+                            anahtar girişi, interkom, kasa, dolap ve özel banyo.</p>
+                        <a href="#detailed-reservation" class="btn-room-detail">İNCELE</a>
+                    </div>
+                </div>
+
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="fotoğraflar/odalar/480769092.jpg"
+                            alt="Valeria Antique Hotel Deluxe Double Room - 17m² lüks oda King Size yatak">
+                        <div class="room-price">
+                            <span class="price-label">GECELİK</span>
+                            <span class="price">€55</span>
+                        </div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe Double Room</h3>
+                        <p>17 m² alanda, 2 kişilik King Size yatak. Tüm konfor ekipmanları ile donatılmış lüks oda.</p>
+                        <a href="#detailed-reservation" class="btn-room-detail">İNCELE</a>
+                    </div>
+                </div>
+
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="fotoğraflar/odalar/480769257.jpg"
+                            alt="Valeria Antique Hotel Standard Triple Room - 22m² 3 kişilik oda zemin kat">
+                        <div class="room-price">
+                            <span class="price-label">GECELİK</span>
+                            <span class="price">€60</span>
+                        </div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Standard Triple Room</h3>
+                        <p>22 m² alanda, 1 Queen + 1 Single yatak. 3 kişilik oda, zemin kat. Tüm konfor ekipmanları
+                            mevcut.</p>
+                        <a href="#detailed-reservation" class="btn-room-detail">İNCELE</a>
+                    </div>
+                </div>
+
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="fotoğraflar/odalar/480770417.jpg"
+                            alt="Valeria Antique Hotel Deluxe Triple Room - 24m² deluxe 3 kişilik oda">
+                        <div class="room-price">
+                            <span class="price-label">GECELİK</span>
+                            <span class="price">€80</span>
+                        </div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe Triple Room</h3>
+                        <p>24 m² alanda, 1 Queen + 1 Single yatak. 3 kişilik deluxe oda, tüm konfor detayları ile.</p>
+                        <a href="#detailed-reservation" class="btn-room-detail">İNCELE</a>
+                    </div>
+                </div>
+
+                <div class="room-item">
+                    <div class="room-image">
+                        <img src="fotoğraflar/odalar/480769247.jpg"
+                            alt="Valeria Antique Hotel Deluxe Sultans Triple Room - 24m² deniz manzaralı suite">
+                        <div class="room-price">
+                            <span class="price-label">GECELİK</span>
+                            <span class="price">€120</span>
+                        </div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe Sultans Triple Room</h3>
+                        <p>24 m² alanda, 1 Queen + 1 Single yatak. Deniz manzaralı balkon ile özel suite oda.</p>
+                        <a href="#detailed-reservation" class="btn-room-detail">İNCELE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn">‹</button>
+                <button class="next-btn">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetler Bölümü -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">HİZMETLERİMİZ</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">🛎️</div>
+                    <h3>24/7 Resepsiyon</h3>
+                    <p>Otelimizde 24 saat boyunca hizmetinizdeyiz. Her türlü ihtiyacınız için resepsiyonumuz açık.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🚗</div>
+                    <h3>Transfer Hizmeti</h3>
+                    <p>İstanbul Havalimanı (50€) ve Sabiha Gökçen Havalimanı (60€) transfer hizmetlerimizden
+                        yararlanabilirsiniz.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🅿️</div>
+                    <h3>Otopark</h3>
+                    <p>Misafirlerimiz için ücretli otopark hizmetimiz mevcuttur. Güvenli park alanı sağlıyoruz.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon"> </div>
+                    <h3>Ücretsiz WiFi</h3>
+                    <p>Tüm otelde hızlı ve ücretsiz internet bağlantısı ile online kalın.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🧳</div>
+                    <h3>Bagaj Saklama</h3>
+                    <p>Check-in öncesi ve check-out sonrası bagajlarınızı güvenle saklayabilirsiniz.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🧺</div>
+                    <h3>Çamaşırhane</h3>
+                    <p>Misafirlerimize çamaşır yıkama ve temizleme hizmetleri sunuyoruz.</p>
+                    <a href="#contact" class="btn-service">İNCELE</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">📍</div>
+                    <h3>Sultanahmet Merkezi Konum</h3>
+                    <p>Ayasofya, Sultanahmet Camii ve Kapalıçarşı'ya yürüme mesafesinde! İstanbul'un kalbinde. Tüm
+                        tarihi yerlere 3-8 dakika yürüme.</p>
+                    <a href="#contact" class="btn-service">KONUM</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🚊</div>
+                    <h3>Ulaşım Kolaylığı</h3>
+                    <p>Tramvay durağına 3 dakika. Eminönü vapuruna 10 dakika. Galata Köprüsü'ne yürüme mesafesi.</p>
+                    <a href="https://maps.google.com/?q=Valeria+Antique+Hotel+Sultanahmet" target="_blank"
+                        class="btn-service">HARİTA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarihçe Bölümü (Kısaltılmış) -->
+    <section id="history" class="history-brief">
+        <div class="container">
+            <div class="history-content">
+                <div class="history-text">
+                    <h2>133 YILLIK ZENGİN TARİHİMİZ</h2>
+                    <p>1892 yılında kurulan Valeria Antique Hotel, Osmanlı döneminin en özel mimarı örneklerinden
+                        biridir. Osmanlı Padişahı'nın kişisel doktorlarından birine ait olan bu tarihi bina, Çırağan
+                        Sarayı'nın motiflerini çizen usta tarafından dekore edilmiştir.</p>
+                    <div class="history-highlights">
+                        <div class="highlight-item">
+                            <span class="year">1892</span>
+                            <span class="event">Kuruluş</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="year">2020</span>
+                            <span class="event">Restorasyon</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="year">2025</span>
+                            <span class="event">Modernizasyon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="history-image">
+                    <img src="fotoğraflar/odalar/480769125.jpg"
+                        alt="Valeria Antique Hotel tarihi fotoğraf - 1892 Osmanlı dönemi mimari">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Bölümü -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">GALERİ</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="fotoğraflar/galeri/480769135.jpg"
+                        alt="Valeria Antique Hotel dış görünüm - Sultanahmet'te tarihi otel cephesi">
+                </div>
+                <div class="gallery-item">
+                    <img src="fotoğraflar/genel/480769139.jpg"
+                        alt="Valeria Antique Hotel restoran - geleneksel Türk kahvaltısı hizmeti">
+                </div>
+                <div class="gallery-item">
+                    <img src="fotoğraflar/genel/480769146.jpg"
+                        alt="Valeria Antique Hotel spa wellness - dinlendirici masaj ve terapi hizmetleri">
+                </div>
+                <div class="gallery-item">
+                    <img src="fotoğraflar/galeri/480769147.jpg"
+                        alt="Valeria Antique Hotel oda iç mekan - antika mobilyalı konforlu yatak odası">
+                </div>
+                <div class="gallery-item">
+                    <img src="fotoğraflar/galeri/480769170.jpg"
+                        alt="Valeria Antique Hotel bahçe - tarihi binada huzurlu açık alan">
+                </div>
+                <div class="gallery-item">
+                    <img src="fotoğraflar/galeri/480769180.jpg"
+                        alt="Valeria Antique Hotel bar lounge - geleneksel Türk çayı ve kahve servisi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Detaylı Rezervasyon Bölümü -->
+    <section id="detailed-reservation" class="detailed-reservation">
+        <div class="container">
+            <h2 class="section-title">REZERVASYON</h2>
+            <form class="reservation-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkin">Giriş Tarihi</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout">Çıkış Tarihi</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests">Misafir Sayısı</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Seçiniz</option>
+                            <option value="1">1 Misafir</option>
+                            <option value="2">2 Misafir</option>
+                            <option value="3">3 Misafir</option>
+                            <option value="4">4 Misafir</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="room-type">Oda Tipi</label>
+                        <select id="room-type" name="room-type" required>
+                            <option value="">Seçiniz</option>
+                            <option value="Economic Double Room">Economic Double Room (€40)</option>
+                            <option value="Deluxe Double Room">Deluxe Double Room (€55)</option>
+                            <option value="Standard Triple Room">Standard Triple Room (€60)</option>
+                            <option value="Deluxe Triple Room">Deluxe Triple Room (€80)</option>
+                            <option value="Deluxe Sultans Triple Room">Deluxe Sultans Triple Room (€120)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="name">Ad Soyad</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="special-requests">Özel İstekler</label>
+                        <textarea id="special-requests" name="special-requests" rows="4"
+                            placeholder="Özel isteklerinizi buraya yazabilirsiniz..."></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">REZERVASYON YAP</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- İletişim ve Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Valeria Antique Hotel</h3>
+                    <p>1892'den beri Sultanahmet'te misafirlerimize eşsiz bir konaklama deneyimi sunuyoruz.</p>
+                    <div class="contact-details">
+                        <p><strong>📍 ADRESİMİZ</strong><br>
+                            Mutrip Sokak No 15, Sultanahmet<br>
+                            Fatih, İstanbul 34000, Türkiye</p>
+
+                        <p><strong> ️ KONUM BİLGİLERİ</strong><br>
+                            • Sultanahmet Camii'ne: 8 dakika yürüme<br>
+                            • Ayasofya'ya: 8 dakika yürüme<br>
+                            • Kapalıçarşı'ya: 5 dakika yürüme<br>
+                            • Tramvay durağına: 3 dakika yürüme<br>
+                            • İstanbul Havalimanı: 50 km (50€ transfer)</p>
+
+                        <p><a href="https://maps.google.com/?q=Valeria+Antique+Hotel+Sultanahmet+Mutrip+Sokak+No+15"
+                                target="_blank" class="map-link">
+                                🗺️ Google Maps'te Görüntüle</a></p>
+
+                        <p><strong> 📞 İLETİŞİM</strong><br>
+                            <a href="tel:+905372682549">+90 537 268 25 49</a><br>
+                            <a href="tel:+905382081458">Rezervasyon: +90 538 208 14 58</a>
+                        </p>
+
+                        <p>📱 <a href="https://wa.me/905372682549" target="_blank">WhatsApp</a></p>
+                        <p>✉️ <a href="mailto:valeria.antique@gmail.com">valeria.antique@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>İSTANBUL'DAKİ KONUMUMUZ</h4>
+                    <div class="location-info">
+                        <p><strong>📍 Sultanahmet Merkezi</strong></p>
+                        <ul class="location-distances">
+                            <li>🕌 Ayasofya → 8 dakika yürüme</li>
+                            <li>🕌 Sultanahmet Camii → 8 dakika yürüme</li>
+                            <li>🏛️ Kapalıçarşı → 5 dakika yürüme</li>
+                            <li>🏰 Topkapı Sarayı → 10 dakika yürüme</li>
+                            <li>🚊 Tramvay Durağı → 3 dakika yürüme</li>
+                            <li>✈️ İstanbul Havalimanı → 50 dakika</li>
+                        </ul>
+                        <div class="map-link">
+                            <a href="https://maps.google.com/maps?q=41.0082,28.9784&z=15&hl=tr" target="_blank"
+                                class="btn-map">
+                                🗺️ HARITADA GÖRÜN
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>BAĞLANTILAR</h4>
+                    <ul>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#services">Hizmetlerimiz</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>ODALAR</h4>
+                    <ul>
+                        <li><a href="#rooms">Economic Double Room</a></li>
+                        <li><a href="#rooms">Deluxe Double Room</a></li>
+                        <li><a href="#rooms">Standard Triple Room</a></li>
+                        <li><a href="#rooms">Deluxe Triple Room</a></li>
+                        <li><a href="#rooms">Deluxe Sultans Room</a></li>
+                        <li><a href="#detailed-reservation">Rezervasyon</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>E-BÜLTEN</h4>
+                    <p>Haber, duyuru ve kampanyalarımızdan haberdar olmak için e-posta adresinizi ekleyin.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="E-posta adresiniz" required>
+                        <button type="submit">KAYIT OL</button>
+                    </form>
+                    <div class="social-footer">
+                        <a href="https://instagram.com/valeria_antique_1892" target="_blank" aria-label="Instagram"
+                            class="fa-brands fa-instagram"></a>
+                        <a href="https://wa.me/905372682549" target="_blank" aria-label="WhatsApp"
+                            class="fa-brands fa-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Valeria Antique Hotel Sultanahmet 1892. Her Hakkı Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">&times;</button>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

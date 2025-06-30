@@ -1,0 +1,164 @@
+@model Otel.Entity.DTOs.RezervasyonDto
+@{
+    ViewData["Title"] = "Rezervasyon";
+}
+
+<div class="container">
+    <div class="reservation-page">
+        <div class="reservation-header">
+            <h1>Rezervasyon Yapın</h1>
+            <p>Valeria Antique Hotel'de unutulmaz bir konaklama deneyimi için rezervasyonunuzu yapın.</p>
+        </div>
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Success"]
+            </div>
+        }
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-error">
+                @TempData["Error"]
+            </div>
+        }
+
+        <form asp-action="Rezervasyon" method="post" class="reservation-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="GirisTarihi">Giriş Tarihi</label>
+                    <input asp-for="GirisTarihi" type="date" class="form-control" required>
+                    <span asp-validation-for="GirisTarihi" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CikisTarihi">Çıkış Tarihi</label>
+                    <input asp-for="CikisTarihi" type="date" class="form-control" required>
+                    <span asp-validation-for="CikisTarihi" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="MisafirSayisi">Misafir Sayısı</label>
+                    <select asp-for="MisafirSayisi" class="form-control" required>
+                        <option value="1">1 Misafir</option>
+                        <option value="2">2 Misafir</option>
+                        <option value="3">3 Misafir</option>
+                        <option value="4">4 Misafir</option>
+                    </select>
+                    <span asp-validation-for="MisafirSayisi" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OdaTipi">Oda Tipi</label>
+                    <select asp-for="OdaTipi" class="form-control" required>
+                        <option value="">Seçiniz</option>
+                        <option value="Economic Double Room">Economic Double Room (€40)</option>
+                        <option value="Deluxe Double Room">Deluxe Double Room (€55)</option>
+                        <option value="Standard Triple Room">Standard Triple Room (€60)</option>
+                        <option value="Deluxe Triple Room">Deluxe Triple Room (€80)</option>
+                        <option value="Deluxe Sultans Triple Room">Deluxe Sultans Triple Room (€120)</option>
+                    </select>
+                    <span asp-validation-for="OdaTipi" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div id="availability-result" class="availability-result" style="display: none;">
+                <div class="availability-message"></div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label asp-for="AdSoyad">Ad Soyad</label>
+                    <input asp-for="AdSoyad" type="text" class="form-control" required>
+                    <span asp-validation-for="AdSoyad" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="Email">E-posta</label>
+                    <input asp-for="Email" type="email" class="form-control" required>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telefon">Telefon</label>
+                    <input asp-for="Telefon" type="tel" class="form-control" required>
+                    <span asp-validation-for="Telefon" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label asp-for="Mesaj">Özel İstekler</label>
+                    <textarea asp-for="Mesaj" rows="4" class="form-control"
+                        placeholder="Özel isteklerinizi buraya yazabilirsiniz..."></textarea>
+                    <span asp-validation-for="Mesaj" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="button" id="check-availability" class="btn btn-secondary">Müsaitlik Kontrol Et</button>
+                <button type="submit" class="btn-submit">REZERVASYON YAP</button>
+            </div>
+        </form>
+
+        <div class="reservation-info">
+            <h3>Rezervasyon Bilgileri</h3>
+            <ul>
+                <li><strong>Check-in:</strong> 14:00</li>
+                <li><strong>Check-out:</strong> 12:00</li>
+                <li><strong>İptal Politikası:</strong> Check-in tarihinden 24 saat öncesine kadar ücretsiz iptal</li>
+                <li><strong>Ödeme:</strong> Otelde nakit veya kredi kartı ile ödeme yapabilirsiniz</li>
+                <li><strong>Transfer:</strong> İstanbul Havalimanı (50€) ve Sabiha Gökçen Havalimanı (60€)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('check-availability').addEventListener('click', function() {
+            const girisTarihi = document.querySelector('[name="GirisTarihi"]').value;
+            const cikisTarihi = document.querySelector('[name="CikisTarihi"]').value;
+            const odaTipi = document.querySelector('[name="OdaTipi"]').value;
+            
+            if (!girisTarihi || !cikisTarihi || !odaTipi) {
+                alert('Lütfen tüm alanları doldurun.');
+                return;
+            }
+            
+            fetch('@Url.Action("CheckAvailability", "Home")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({
+                    girisTarihi: girisTarihi,
+                    cikisTarihi: cikisTarihi,
+                    odaTipi: odaTipi
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('availability-result');
+                const messageDiv = resultDiv.querySelector('.availability-message');
+                
+                if (data.success) {
+                    messageDiv.textContent = data.message;
+                    messageDiv.className = 'availability-message ' + (data.available ? 'available' : 'not-available');
+                    resultDiv.style.display = 'block';
+                } else {
+                    messageDiv.textContent = data.message;
+                    messageDiv.className = 'availability-message error';
+                    resultDiv.style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Bir hata oluştu.');
+            });
+        });
+    </script>
+}

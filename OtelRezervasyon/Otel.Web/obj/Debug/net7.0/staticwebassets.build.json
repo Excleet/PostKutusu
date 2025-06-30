@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "8EI3quSJOsxz7d47FT0xl/oaRJVDWYiitCmD7nf78Pk=",
+  "Source": "Otel.Web",
+  "BasePath": "_content/Otel.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Otel.Web\\wwwroot",
+      "Source": "Otel.Web",
+      "ContentRoot": "C:\\Users\\Msi\\Desktop\\OtelKatmanlıMimari\\OtelRezervasyon\\Otel.Web\\wwwroot\\",
+      "BasePath": "_content/Otel.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Msi\\Desktop\\OtelKatmanlıMimari\\OtelRezervasyon\\Otel.Web\\wwwroot\\css\\styles.css",
+      "SourceId": "Otel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Msi\\Desktop\\OtelKatmanlıMimari\\OtelRezervasyon\\Otel.Web\\wwwroot\\",
+      "BasePath": "_content/Otel.Web",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Msi\\Desktop\\OtelKatmanlıMimari\\OtelRezervasyon\\Otel.Web\\wwwroot\\js\\script.js",
+      "SourceId": "Otel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Msi\\Desktop\\OtelKatmanlıMimari\\OtelRezervasyon\\Otel.Web\\wwwroot\\",
+      "BasePath": "_content/Otel.Web",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
+}

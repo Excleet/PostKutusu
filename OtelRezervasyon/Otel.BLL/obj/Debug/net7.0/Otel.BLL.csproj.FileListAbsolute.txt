@@ -1,0 +1,17 @@
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.BLL.deps.json
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.BLL.dll
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.BLL.pdb
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.DAL.dll
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.Entity.dll
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.DAL.pdb
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\bin\Debug\net7.0\Otel.Entity.pdb
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.csproj.AssemblyReference.cache
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.AssemblyInfoInputs.cache
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.AssemblyInfo.cs
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.csproj.CopyComplete
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.dll
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\refint\Otel.BLL.dll
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\Otel.BLL.pdb
+C:\Users\Msi\Desktop\OtelKatmanlıMimari\OtelRezervasyon\Otel.BLL\obj\Debug\net7.0\ref\Otel.BLL.dll

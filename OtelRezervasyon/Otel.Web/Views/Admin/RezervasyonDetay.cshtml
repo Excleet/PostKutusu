@@ -1,0 +1,313 @@
+@model Otel.Entity.DTOs.RezervasyonDto
+@{
+    ViewData["Title"] = "Rezervasyon Detayı";
+    Layout = "_AdminLayout";
+}
+
+<div class="dashboard-header">
+    <h1>Rezervasyon Detayı</h1>
+    <div style="display: flex; gap: 10px; align-items: center;">
+        <a href="@Url.Action("Rezervasyonlar")" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Listeye Dön
+        </a>
+        @if (!Model.OnayDurumu)
+        {
+            <form asp-controller="Admin" asp-action="OnaylaRezervasyonu" method="post" style="display: inline;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-check"></i> Onayla
+                </button>
+            </form>
+        }
+        <form asp-controller="Admin" asp-action="SilRezervasyonu" method="post" style="display: inline;"
+              onsubmit="return confirm('Bu rezervasyonu silmek istediğinizden emin misiniz?')">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-trash"></i> Sil
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="reservation-detail">
+    <div class="detail-grid">
+        <!-- Müşteri Bilgileri -->
+        <div class="detail-card">
+            <h3><i class="fas fa-user"></i> Müşteri Bilgileri</h3>
+            <div class="detail-content">
+                <div class="detail-row">
+                    <label>Ad Soyad:</label>
+                    <span>@Model.AdSoyad</span>
+                </div>
+                <div class="detail-row">
+                    <label>E-posta:</label>
+                    <span><a href="mailto:@Model.Email">@Model.Email</a></span>
+                </div>
+                <div class="detail-row">
+                    <label>Telefon:</label>
+                    <span><a href="tel:@Model.Telefon">@Model.Telefon</a></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rezervasyon Bilgileri -->
+        <div class="detail-card">
+            <h3><i class="fas fa-calendar"></i> Rezervasyon Bilgileri</h3>
+            <div class="detail-content">
+                <div class="detail-row">
+                    <label>Rezervasyon ID:</label>
+                    <span>#@Model.Id</span>
+                </div>
+                <div class="detail-row">
+                    <label>Giriş Tarihi:</label>
+                    <span>@Model.GirisTarihi.ToString("dd MMMM yyyy, dddd", new System.Globalization.CultureInfo("tr-TR"))</span>
+                </div>
+                <div class="detail-row">
+                    <label>Çıkış Tarihi:</label>
+                    <span>@Model.CikisTarihi.ToString("dd MMMM yyyy, dddd", new System.Globalization.CultureInfo("tr-TR"))</span>
+                </div>
+                <div class="detail-row">
+                    <label>Konaklama Süresi:</label>
+                    <span>@Model.GeceSayisi gece</span>
+                </div>
+                <div class="detail-row">
+                    <label>Durum:</label>
+                    <span>
+                        @if (Model.OnayDurumu)
+                        {
+                            <span class="status status-approved"><i class="fas fa-check-circle"></i> Onaylı</span>
+                        }
+                        else
+                        {
+                            <span class="status status-pending"><i class="fas fa-clock"></i> Onay Bekliyor</span>
+                        }
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Oda Bilgileri -->
+        <div class="detail-card">
+            <h3><i class="fas fa-bed"></i> Oda Bilgileri</h3>
+            <div class="detail-content">
+                <div class="detail-row">
+                    <label>Oda Tipi:</label>
+                    <span>@Model.OdaTipi</span>
+                </div>
+                <div class="detail-row">
+                    <label>Misafir Sayısı:</label>
+                    <span>@Model.MisafirSayisi kişi</span>
+                </div>
+                @{
+                    var odaFiyatlari = new Dictionary<string, decimal>
+                    {
+                        {"Economic Double Room", 40},
+                        {"Deluxe Double Room", 55},
+                        {"Standard Triple Room", 60},
+                        {"Deluxe Triple Room", 80},
+                        {"Deluxe Sultans Triple Room", 120}
+                    };
+                    var toplamFiyat = odaFiyatlari.ContainsKey(Model.OdaTipi) ? odaFiyatlari[Model.OdaTipi] * Model.GeceSayisi : 0;
+                }
+                @if (toplamFiyat > 0)
+                {
+                    <div class="detail-row">
+                        <label>Gecelik Fiyat:</label>
+                        <span>€@odaFiyatlari[Model.OdaTipi]</span>
+                    </div>
+                    <div class="detail-row">
+                        <label>Toplam Tutar:</label>
+                        <span class="total-amount">€@toplamFiyat</span>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Sistem Bilgileri -->
+        <div class="detail-card">
+            <h3><i class="fas fa-info-circle"></i> Sistem Bilgileri</h3>
+            <div class="detail-content">
+                <div class="detail-row">
+                    <label>Oluşturma Tarihi:</label>
+                    <span>@Model.OlusturmaTarihi.ToString("dd MMMM yyyy, HH:mm", new System.Globalization.CultureInfo("tr-TR"))</span>
+                </div>
+                <div class="detail-row">
+                    <label>Güncel Durumu:</label>
+                    <span>
+                        @if (Model.GirisTarihi.Date == DateTime.Today)
+                        {
+                            <span class="badge badge-today">Bugün Giriş</span>
+                        }
+                        else if (Model.CikisTarihi.Date == DateTime.Today)
+                        {
+                            <span class="badge badge-today">Bugün Çıkış</span>
+                        }
+                        else if (Model.GirisTarihi.Date < DateTime.Today && Model.CikisTarihi.Date > DateTime.Today)
+                        {
+                            <span class="badge badge-active">Aktif Konaklama</span>
+                        }
+                        else if (Model.GirisTarihi.Date > DateTime.Today)
+                        {
+                            <span class="badge badge-future">Gelecek Rezervasyon</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-past">Geçmiş Rezervasyon</span>
+                        }
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Özel İstekler -->
+        @if (!string.IsNullOrEmpty(Model.Mesaj))
+        {
+            <div class="detail-card full-width">
+                <h3><i class="fas fa-comment"></i> Özel İstekler</h3>
+                <div class="detail-content">
+                    <div class="message-content">
+                        @Model.Mesaj
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+.reservation-detail {
+    margin-top: 20px;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.detail-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.detail-card.full-width {
+    grid-column: 1 / -1;
+}
+
+.detail-card h3 {
+    background: #f8f9fa;
+    margin: 0;
+    padding: 15px 20px;
+    color: #2c3e50;
+    border-bottom: 1px solid #ecf0f1;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.detail-content {
+    padding: 20px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-row label {
+    font-weight: 600;
+    color: #2c3e50;
+    flex: 1;
+}
+
+.detail-row span {
+    flex: 1;
+    text-align: right;
+}
+
+.detail-row a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.detail-row a:hover {
+    text-decoration: underline;
+}
+
+.total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-today {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.badge-active {
+    background: #d4edda;
+    color: #155724;
+}
+
+.badge-future {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.badge-past {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.message-content {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+.dashboard-header > div {
+    margin-top: 15px;
+}
+
+@@media (max-width: 768px) {
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard-header > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .detail-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .detail-row span {
+        text-align: left;
+    }
+}
+</style>
