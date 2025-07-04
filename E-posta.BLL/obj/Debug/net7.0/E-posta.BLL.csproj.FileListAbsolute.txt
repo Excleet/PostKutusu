@@ -1,0 +1,17 @@
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.csproj.AssemblyReference.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.AssemblyInfoInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.AssemblyInfo.cs
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.BLL.deps.json
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.BLL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.BLL.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.DAL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.Entity.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.DAL.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\bin\Debug\net7.0\E-posta.Entity.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.csproj.CopyComplete
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\refint\E-posta.BLL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\E-posta.BLL.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.BLL\obj\Debug\net7.0\ref\E-posta.BLL.dll

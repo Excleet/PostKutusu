@@ -1,0 +1,12 @@
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\bin\Debug\net7.0\E-posta.Entity.deps.json
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\bin\Debug\net7.0\E-posta.Entity.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\bin\Debug\net7.0\E-posta.Entity.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.csproj.AssemblyReference.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.AssemblyInfoInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.AssemblyInfo.cs
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\refint\E-posta.Entity.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\E-posta.Entity.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.Entity\obj\Debug\net7.0\ref\E-posta.Entity.dll

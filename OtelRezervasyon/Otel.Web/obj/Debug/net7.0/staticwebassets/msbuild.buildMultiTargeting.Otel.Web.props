@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Otel.Web.props" />
-</Project>

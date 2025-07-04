@@ -1,0 +1,15 @@
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\bin\Debug\net7.0\E-posta.DAL.deps.json
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\bin\Debug\net7.0\E-posta.DAL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\bin\Debug\net7.0\E-posta.DAL.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\bin\Debug\net7.0\E-posta.Entity.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\bin\Debug\net7.0\E-posta.Entity.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.csproj.AssemblyReference.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.AssemblyInfoInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.AssemblyInfo.cs
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.csproj.CopyComplete
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\refint\E-posta.DAL.dll
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\E-posta.DAL.pdb
+C:\Users\Msi\Desktop\PostKutusu\E-posta.DAL\obj\Debug\net7.0\ref\E-posta.DAL.dll
